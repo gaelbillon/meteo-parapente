@@ -1,0 +1,5 @@
+<select>
+	<% _.each(runs, function (run) { %>
+  		<option value="<%= run.day %> - <%= run.status %>"><%= run.day %> - <%= run.status %></option>
+  	<% }); %>
+</select>
